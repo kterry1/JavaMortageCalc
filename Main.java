@@ -29,7 +29,5 @@ public class Main {
         float total = (principal * ((monthlyInterest * (float)Math.pow(1 + monthlyInterest, periodInMonths)) / ((float)Math.pow(1 + monthlyInterest, periodInMonths) - 1)));
         String mortgage = NumberFormat.getCurrencyInstance(Locale.US).format(total);
         System.out.print("Mortgage: " + mortgage);
-
-
  }
 }
